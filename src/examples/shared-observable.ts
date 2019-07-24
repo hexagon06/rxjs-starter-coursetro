@@ -1,6 +1,7 @@
 import 'rxjs/add/observable/from';
 import 'rxjs/add/operator/share';
 import { Observable } from 'rxjs/Observable';
+import { additem } from '../dom-utils';
 
 export function sharedExample() {
   const observable = Observable.create((observer: any) => {
